@@ -44,7 +44,16 @@ Inference: chi-squared and fisher exact tests
 
 ## Graphical Summary 
 
+### barchart
 
+
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
+
+Based upon the graph above it seems that race does determine the frequency in which some one eats out. Based on the graph it seems that white people eat out the most. 
 
 
 
