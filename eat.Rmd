@@ -55,8 +55,14 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 
 Based upon the graph above it seems that race does determine the frequency in which some one eats out. Based on the graph it seems that white people eat out the most. 
 
+## Numerical Summary 
 
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
+This table shows that of all the races white people tend to eat out the most. Which again shows that race does play a role in the frequency in which one eats out.
 
 
