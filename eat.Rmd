@@ -66,3 +66,20 @@ colPerc(table1)
 This table shows that of all the races white people tend to eat out the most. Which again shows that race does play a role in the frequency in which one eats out.
 
 
+# Results 
+
+## Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Based on the chi-squared test we can see that the frequency in which someone eats out is linked to race.The p-value is 0.000002287 which means that we can reject the null hypothesis. 
+
+
+```{r}
+fisherXY(mydata$race,mydata$eatout)
+```
+
