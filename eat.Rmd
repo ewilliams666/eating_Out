@@ -83,3 +83,4 @@ Based on the chi-squared test we can see that the frequency in which someone eat
 fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 ```
 Based upon the chart above we see that white people are more likely to eat out than the other races. Based upon the odds ratio it seems that white people are twice as likely to eat out when compared to black folks and almost twice as likely when it comes to other races as well.We don't have enough statistical data between black folks and other races to conclude that there is much of a difference between them when it comes to eating out since out p-value is 0.5993.
+done
